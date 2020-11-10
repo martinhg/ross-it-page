@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+.header {
+    height: 100vh;
+    width: 100%;
+    
+    position: relative;
+    
+    overflow: hidden;
+
+    &_elements {
+        transform: translate(5%, 8%);
+        position: absolute;
+        // display: flex;
+        // align-self: center;
+        // align-items: center;
+        // justify-content: center;
+    }
+
+    &_btn {
+        // border-radius: 30px;
+        width: 220px;
+        background-color: #f58634;
+        // border: 1px solid #f58634;
+    }
+
+    &_overlay {
+        background-color: rgba(0, 0, 0, 0.734);
+        // height: 100%;
+        // background: #fe8c00;  /* fallback for old browsers */
+        // background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+        // background: linear-gradient(to right, hsla(13, 100%, 49%, 0.603), hsla(33, 100%, 50%, 0.603)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        z-index: 100;
+    }
+
+    &_title {
+        // width: 100%;
+        // height: 100%;
+        // top: 0;
+        // right: 0;
+        // position: absolute;
+        // text-align: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        text-align: left;
+        font-size: 120px;
+        color: #f58634;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    &_subtitle {
+        text-align: left;
+        font-size: 120px;
+        color: #f58634;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+    }
+
+    &_video {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        // transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    &_wave {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
